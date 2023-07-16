@@ -5,6 +5,9 @@ $(function(){
 });
 
 function getContent(page) {
+    $(function(){
+        $("#landing").hide();
+    });
     switch (page) {
         case "about":
             $(function(){
