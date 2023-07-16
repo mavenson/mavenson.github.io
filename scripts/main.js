@@ -5,8 +5,7 @@ function getContent(page) {
     switch (new Date().getDay()) {
         case 0:
           page = "about";
-          var content = document.getElementById('content') = lorem;
-          return content
+          return lorem;
         case 1:
             page = "projects";
           break;
