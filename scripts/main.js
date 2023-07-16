@@ -5,20 +5,21 @@ $(function(){
 });
 
 function getContent(page) {
-    $(function(){
-        $("#landing").hide();
-    });
 
     switch (page) {
         case "about":
             $(function(){
+                $("#landing").hide();
                 $("#bio-text").show();
+
             });
 
         case "projects":
+            $("#landing").hide();
             break;
 
         case "resume":
+            $("#landing").hide();
           break;
       }
 }
