@@ -5,7 +5,7 @@ function getContent(page) {
     switch (page) {
         case "about":
             document.getElementById('body-text').innerHTML = lorem;
-            document.documentElement.style.cssText = "--main-display: block;"
+            document.documentElement.style.cssText = "--main-display: block";
         case "projects":
 
         case "resume":
