@@ -19,4 +19,9 @@ h1 {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+
+.header-bar {
+  background-color: #886c80;
+  height: 250px;
 }/*# sourceMappingURL=style.css.map */
