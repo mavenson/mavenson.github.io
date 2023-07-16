@@ -2,6 +2,7 @@ const lorem = "Ipsa numquam officia recusandae quae velit recusandae dignissimos
 
 $(function(){
     $("#about-content").hide();
+    $("bio-text").hide();
 });
 
 function getContent(page) {
