@@ -6,6 +6,7 @@ function getContent(page) {
         case 0:
           page = "about";
           var content = document.getElementById('content') = lorem;
+          return content
         case 1:
             page = "projects";
           break;
