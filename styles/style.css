@@ -13,4 +13,9 @@ h1 {
 .header {
   padding: 15px;
   background-color: #3e834f;
+}
+
+.menu {
+  width: 25%;
+  float: left;
 }/*# sourceMappingURL=style.css.map */
