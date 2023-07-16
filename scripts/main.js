@@ -4,7 +4,7 @@ const lorem = "Ipsa numquam officia recusandae quae velit recusandae dignissimos
 function getContent(page) {
     switch (page) {
         case "about":
-            document.getElementById('content').innerHTML = lorem;
+            document.getElementById('body-text').innerHTML = lorem;
         case "projects":
 
         case "resume":
