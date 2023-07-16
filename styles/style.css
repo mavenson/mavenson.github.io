@@ -13,12 +13,13 @@ h2 {
 
 .body-text {
   color: azure;
-  font-size: xx-small;
+  font-size: small;
 }
 
 #landing {
   margin-right: auto;
   margin-left: auto;
+  font-size: xx-small;
 }
 
 #bio-text {
