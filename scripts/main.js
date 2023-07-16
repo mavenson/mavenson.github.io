@@ -12,3 +12,5 @@ function getContent(page) {
       }
 }
 
+window.onload = getContent;
+
