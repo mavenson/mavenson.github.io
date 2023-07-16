@@ -11,10 +11,13 @@ h2 {
   color: gainsboro;
 }
 
-#about-content {
-  background-color: rgb(98, 102, 105);
-}
-
 .about-body-text {
   color: azure;
+  font-size: xx-small;
+}
+
+#landing {
+  font-size: xx-small;
+  margin-right: auto;
+  margin-left: auto;
 }/*# sourceMappingURL=style.css.map */
