@@ -11,11 +11,10 @@ h2 {
   color: gainsboro;
 }
 
-#about-body {
-  color: azure;
+#content {
   background-color: rgb(98, 102, 105);
 }
 
-#about-section {
-  display: none;
+.body-text {
+  color: azure;
 }/*# sourceMappingURL=style.css.map */
