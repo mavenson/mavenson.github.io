@@ -8,7 +8,7 @@ function getContent(page) {
     switch (page) {
         case "about":
             $(function(){
-                $(".content").show();
+                $(".content").hide();
             });
 
         case "projects":
