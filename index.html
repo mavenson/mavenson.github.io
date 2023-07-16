@@ -14,17 +14,11 @@
 <div class="container-fluid p-3 text-white">
 <h1 class="text-center">Julius A. Smith</h1>
   <!-- horizontal nav-->
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" onclick="javascript:getContent('about');">About Me</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" onclick="javascript:getContent('projects');">Projects</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" onclick="javascript:getContent('resume');">Résumé</a>
-    </li>
-  </ul>  
+  <div class="btn-group">
+    <a href="javascript:getContent('about');" class="btn btn-primary active" aria-current="page">About Me</a>
+    <a href="javascript:getContent('projects');" class="btn btn-primary">Projects</a>
+    <a href="javascript:getContent('resume');" class="btn btn-primary">Résumé</a>
+  </div>
 </div>
 
 <div class="container p-3 text-white bg-dark">
