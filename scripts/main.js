@@ -2,15 +2,15 @@ const lorem = "Ipsa numquam officia recusandae quae velit recusandae dignissimos
 
 
 function getContent(page) {
-    switch (new Date().getDay()) {
-        case page == "about":
+    switch (page) {
+        case "about":
             document.getElementById('content').innerHTML = lorem;
-        case page == "projects":
-          break;
-        case page == "resume":
+        case "projects":
+            window.onload = getContent;
+        case "resume":
           break;
       }
 }
 
-window.onload = getContent;
+
 
