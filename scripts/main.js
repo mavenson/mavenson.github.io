@@ -3,16 +3,13 @@ let lorem = "Ipsa numquam officia recusandae quae velit recusandae dignissimos. 
 
 function getContent(page) {
     switch (new Date().getDay()) {
-        case 0:
-          page = "about";
-          document.getElementById('content') = lorem;
-        case 1:
-            page = "projects";
-          break;
-        case 2:
-            page = "resume";
-          break;
+        case page == "about":
+            document.getElementById('text').innerHTML = lorem;
 
+        case page == "projects":
+          break;
+        case page == "resume":
+          break;
       }
 }
 
