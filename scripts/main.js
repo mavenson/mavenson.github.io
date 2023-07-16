@@ -4,8 +4,7 @@ let lorem = "Ipsa numquam officia recusandae quae velit recusandae dignissimos. 
 function getContent(page) {
     switch (new Date().getDay()) {
         case page == "about":
-            document.getElementById('text').innerHTML = lorem;
-
+            document.getElementById('content').innerHTML = lorem;
         case page == "projects":
           break;
         case page == "resume":
