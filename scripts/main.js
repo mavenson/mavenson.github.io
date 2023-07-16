@@ -6,7 +6,6 @@ function getContent(page) {
         case 0:
           page = "about";
           var content = document.getElementById('content');
-            content;
         case 1:
             page = "projects";
           break;
