@@ -6,7 +6,7 @@ function getContent(page) {
         case "about":
             document.getElementById('content').innerHTML = lorem;
         case "projects":
-            window.onload = getContent;
+
         case "resume":
           break;
       }
