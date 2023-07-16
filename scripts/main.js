@@ -7,6 +7,7 @@ function getContent(page) {
             $("content").show();
 
         case "projects":
+            break;
 
         case "resume":
           break;
