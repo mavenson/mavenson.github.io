@@ -2,27 +2,40 @@ const lorem = "Ipsa numquam officia recusandae quae velit recusandae dignissimos
 
 $(function(){
     $("#bio-text").hide();
+    $("#projects").hide();
+    $("#resume").hide();
 });
 
 function getContent(page) {
 
     switch (page) {
-        case "about":
+        case "bio-text":
             $(function(){
                 $("#landing").hide();
                 $("#bio-text").show();
-
+                $("#resume").hide();
+                $("#projects").hide();
             });
+            break;
 
         case "projects":
-            $("#landing").hide();
+            $(function(){
+                $("#landing").hide();
+                $("resume").hide();
+                $("bio-text").hide();
+                $("projects").show();
+            });
             break;
 
         case "resume":
-            $("#landing").hide();
-          break;
-      }
+            $(function(){
+                $("#landing").hide();
+                $("bio-text").hide();
+                $("projects").hide();
+                $("resume").show();
+            });
+            break;
+        default:
+            break;
+    }
 }
-
-
-
